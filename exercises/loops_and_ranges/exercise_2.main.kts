@@ -7,7 +7,7 @@
  * This text is stored as a list of Strings in `lookingGlass`.
  * You will write `for`-loops to implement the following functions.
  *
- *      1. Implement `countOnes` to determine many occurrences of the word 'one' are
+ *      1. Implement `countOnes` to determine how many occurrences of the word 'one' are
  *         in `lookingGlass` (i.e., what is the answer to the White Queen's sum?).
  *
  *      2. Implement `findContainers` to determine which strings in `lookingGlass` contain
