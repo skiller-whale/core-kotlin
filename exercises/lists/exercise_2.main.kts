@@ -41,7 +41,7 @@ println("""
     """.trimFormat()
 )
 
-assert(totalNumberNames == exercise2[0]) {"`totalNumberNames` is not implemented correctly\n$hint"}
-assert(mostPopularName == exercise2[1]) {"`mostPopularName` is not implemented correctly\n$hint"}
-assert(fourthLeastPopularName == exercise2[2]) {"`fourthLeastPopularName` is not implemented correctly\n$hint"}
-assert(mostPopularLongerTen == exercise2[3]) {"`mostPopularLongerTen` is not implemented correctly\n$hint"}
+assert(totalNumberNames == exercise2[0]) {"`totalNumberNames` is not implemented correctly"}
+assert(mostPopularName == exercise2[1]) {"`mostPopularName` is not implemented correctly"}
+assert(fourthLeastPopularName == exercise2[2]) {"`fourthLeastPopularName` is not implemented correctly"}
+assert(mostPopularLongerTen == exercise2[3]) {"`mostPopularLongerTen` is not implemented correctly"}
