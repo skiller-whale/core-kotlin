@@ -17,7 +17,7 @@ class PlayGame() {
             remainingGuesses == 0 -> println("Sorry! You have lost")
             game.isWon            -> println("Congratulations, you won!")
             else                  -> { // Run game in loop
-                print("Enter a letter or word: ")
+                print("Enter a letter: ")
                 val input: Char = readln().single()
                 game.playGuess(input).also(::println)
                 runGame()

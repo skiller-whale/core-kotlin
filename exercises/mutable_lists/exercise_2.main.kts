@@ -3,9 +3,10 @@
 /* REMOVING ELEMENTS FROM MUTABLE LISTS
  * ------------------------------------
  *
- * 1. Remove "Tinker, Sailor, Soldier, Spy" from its list and assign it to the variable `favouriteSpyNovel`.
+ * 1. Remove "Tinker, Tailor, Soldier, Spy" from its list and assign it to the variable `favouriteSpyNovel`.
  *
  * 2. Update the function `removeGenre` so that it removes every list from `bookStore` that has the specified genre.
+ *    HINT: each element of `bookStore` is a whole list. Its genre is its first element.
  *
  */
 
@@ -13,7 +14,7 @@ val bookStore: MutableList<MutableList<String>> = mutableListOf(
     mutableListOf("Science-Fiction", "2001: A Plaice Codyssey", "Children of Cod", "The Fishpossessed"),
     mutableListOf("Fantasy", "A Clash of Fins", "A Wizard of Earthsea", "Dune"),
     mutableListOf("Nonfiction", "Waiting for Cod-ot", "Freakonomics", "The Guns of August"),
-    mutableListOf("Spy", "Tinker, Sailor, Soldier, Spy", "The Miernik Dossier", "The Company"),
+    mutableListOf("Spy", "Tinker, Tailor, Soldier, Spy", "The Miernik Dossier", "The Company"),
     mutableListOf("Computer Science", "Algae-rithms", "Sea++ Programming", "The Joy of Kotlin"),
 )
 

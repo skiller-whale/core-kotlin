@@ -37,8 +37,8 @@ fun pickWinner(card1: Card, card2: Card): Card = TODO() /* Your code goes here *
 // Do not edit this code
 fun buildDeck(): ArrayList<Card> {
     var deck: ArrayList<Card> = arrayListOf()
-    for (suit in Suit.values()) {
-        for (rank in Rank.values()) {
+    for (suit in Suit.entries) {
+        for (rank in Rank.entries) {
             deck += Pair(rank, suit)
         }
     }

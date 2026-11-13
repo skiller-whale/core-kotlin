@@ -37,6 +37,7 @@ fun main() {
     )
 
 
+    htmlMailer.send(recipient1, "Skiller Whale")
     User.users.forEach { user -> plainLogMailer.send(user, "Skiller Whale") }
 
     // TODO, PART 2: uncomment this code when `plainTimeLogMailer` is defined

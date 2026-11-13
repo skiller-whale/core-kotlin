@@ -8,6 +8,7 @@
  *    Use the `init` block to hash each password that is generated for a customer.
  *    Hint: the `Hasher` class has a member function `hash(plaintext)` that hashes
  *          a plaintext password, and returns the result as a hexadecimal string.
+ *          A hashed password is 48 characters long.
  */
 
 fun main() {
@@ -15,8 +16,8 @@ fun main() {
     val customer2 = Customer("Christian", "Whale")
 
     // TODO: un-comment this code after you have defined the `password` property
-    println("customer1 hashed password: ${customer1.password}")
-    println("customer2 hashed password: ${customer2.password}")
+    // println("customer1 hashed password: ${customer1.password}")
+    // println("customer2 hashed password: ${customer2.password}")
 }
 
 class Customer(

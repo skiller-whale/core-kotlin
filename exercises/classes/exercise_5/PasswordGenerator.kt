@@ -3,7 +3,7 @@ class PasswordGenerator(val passwordLength: Int = 20) {
     val random         = java.security.SecureRandom()
 
     init {
-        require(passwordLength <= 40) { "Password was $passwordLength characters, must be fewer than 40." }
+        require(passwordLength <= 40) { "Password was $passwordLength characters, must be 40 or fewer." }
     }
 
     fun generate(): String {

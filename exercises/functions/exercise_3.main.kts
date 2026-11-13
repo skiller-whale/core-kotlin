@@ -20,4 +20,4 @@ fun printOccurrences(word: String, ignoreCase: Boolean, text: Array<String>) {
 printOccurrences("triangle", true, flatland)
 printOccurrences(ignoreCase = true, word = "hexagon", text = flatland)
 printOccurrences(text = flatland, word = "Triangles", ignoreCase = false)
-printOccurrences("square", text = flatland, ignoreCase = true)
+printOccurrences("square", text = flatland, ignoreCase = false)

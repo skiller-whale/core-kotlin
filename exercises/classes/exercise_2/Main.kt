@@ -8,6 +8,8 @@
  *    Hint: `str.isBlank()` will return `true` if `str` is empty or contains only whitespace.
  * 3. Assign instances of Customer to the variables.
  * 4. Edit the `println` calls to get the properties of each customer.
+ * 5. Run the code. What happens when `customer3` is created?
+ *    Then comment out the `customer3` lines and run it again.
  */
 
 fun main() {

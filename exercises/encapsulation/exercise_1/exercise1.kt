@@ -1,4 +1,4 @@
-/* Exercise 2: Encapsulation and Getters
+/* Exercise 1: Encapsulation and Getters
  * -------------------------------------
  *
  * The following code contains a class that implements the game 'Hangman'.

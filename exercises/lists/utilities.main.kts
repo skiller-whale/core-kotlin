@@ -38,8 +38,8 @@ val exercise4: List<Any> = listOf(
     "eck",
 )
 
-val numbers: List<Int> = listOf(109, 283, 47, 1209, 8, 471, 90, 241)
-val exercise5 = listOf(listOf(109, 283, 47, 1209), listOf(8, 471, 90, 241))
+val numbers: List<Int> = listOf(109, 283, 47, 1209, 8, 471, 90, 241, 66)
+val exercise5 = listOf(listOf(109, 283, 47, 1209), listOf(8, 471, 90, 241, 66))
 
 val exercise6: List<Any> = listOf(
     57,

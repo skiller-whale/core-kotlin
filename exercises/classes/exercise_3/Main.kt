@@ -4,7 +4,7 @@
  * Currently, the primary constructor for Customer requires two Strings to be
  * passed to it to initialise an instance of the class.
  *
- * 1. Provide default "Plaiceholder" values for both properties so that this code compiles.
+ * 1. Provide default "Plaiceholder" values for both properties so that `Customer()` can be called with no arguments.
  * 2. Define an 'email' property, whose default value uses the firstName and lastName properties.
  * 3. Use the `init` block to format every email in lowercase.
  *    Hint: `str.lowercase()` will return a lowercase string value.

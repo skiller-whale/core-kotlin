@@ -3,7 +3,7 @@
 FROM eclipse-temurin:17
 
 # update from https://github.com/JetBrains/kotlin/releases
-ARG version=1.8.10
+ARG version=2.4.20
 
 ADD https://github.com/JetBrains/kotlin/releases/download/v${version}/kotlin-compiler-${version}.zip /usr/local/
 RUN cd /usr/local; jar --extract --file /usr/local/kotlin-compiler-${version}.zip kotlinc

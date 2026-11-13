@@ -5,11 +5,12 @@
  *
  * 1. Add a `pricePence` property of type Int to the Album constructor and update `equals()`.
  * 2. Re-write this code to use a data class to generate an `equals()` method.
- * 3. Run the code to check it is working properly.
+ *    Delete the hand-written `equals()`.
+ * 3. Run the code. Why does the second `require` fail?
  * 4. Add a `productID` property to the class outside of the primary constructor.
  *    This should just be a random number.
  *    Hint: you can generate this with `java.util.Random().nextInt(1000, 9999)`.
- * 5. Run the code to check it is still working as intended. If not, why?
+ * 5. Run the code again. Why does it still fail? How can you fix it?
  */
 
 fun main() {
@@ -26,7 +27,7 @@ fun main() {
     require(item5.equals(item5))
 }
 
-data class Album(
+class Album(
     val title: String,
     val artist: String,
     // TODO: define a `pricePence` property

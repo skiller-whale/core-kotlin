@@ -4,7 +4,7 @@ import api.*
 
 import java.time.LocalDate
 
-/* Exercise 1: Abstract Classes
+/* Exercise 2: Abstract Classes
  * ----------------------------
  *
  * PART 1: make the `Card` class `abstract` and choose which of the following
@@ -20,6 +20,8 @@ import java.time.LocalDate
  * PART 2: define a `ClamericanExpress` class that extends `Card` and implements
  * any inherited `abstract` functions or properties. Recall that Clamerican Express
  * cards have a CVV length of four, not three.
+ *
+ * You'll also need to add a `clamexPayment()` function to `PaymentService.kt`.
  *
  * Hint: look at your updated implementation for `Visa`.
  *

@@ -18,5 +18,5 @@ fun main() {
     println("Balance:\t£${sealionSavings.balancePence / 100.0}")
     println("Account Number:\t${sealionSavings.accountNumber}")
     println("Sort Code:\t${sealionSavings.sortCode}")
-    println("Interest:\t£${sealionSavings.getInterest()}\n")
+    println("Interest:\t£${sealionSavings.getInterest() / 100.0}\n")
 }

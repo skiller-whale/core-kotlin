@@ -12,6 +12,8 @@
  *     of the existing `transfer()` methods. Update the subclasses accordingly.
  *
  *     Hint: In `Savings` you can use `super` to access the superclass function.
+ *
+ * The code does not compile until you complete step 1.
  */
 
 open class Account (
