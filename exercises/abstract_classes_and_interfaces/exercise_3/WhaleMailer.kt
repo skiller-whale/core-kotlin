@@ -16,11 +16,12 @@ import user.*
  *
  * PART 1: de-couple `WhaleMailer` from `Formatter`. Formatting behaviour should be injected as
  * a dependency through instances of a `PlainTextFormatter` class, or an `HtmlFormatter` class.
- * The latter is defined for you in `Formatters.kt`, and should service as a template for the
+ * The latter is defined for you in `Formatters.kt`, and should serve as a template for the
  * `PlainTextFormatter` class.
  *
  * Update `Main.kt` so that the `plainMailer` and `htmlMailer` objects are each constructed by
- * injecting an instance of the appropriate formatting class.
+ * injecting an instance of the appropriate formatting class. Inject a `PlainTextFormatter`
+ * into `plainLogMailer` and `plainTimeLogMailer` too, so that the code compiles.
  *
  * PART 2: de-couple `WhaleMailer` from `Logger` and turn the interface into a functional one.
  * Enable `WhaleMailer` to have a `Logger` dependency injected, then update `Main.kt` to create
@@ -29,10 +30,11 @@ import user.*
  *      plainLogMailer     ==> "Email sent: to ${it.email}\n"
  *      plainTimeLogMailer ==> "Email sent: to ${it.email} at ${LocalDateTime.now()}\n"
  *
- * Use lambda functions to inject the logging behaviour.
+ * Use lambda functions to inject the logging behaviour. If the compiler says that `Logger`
+ * does not have constructors, check that you declared it as a `fun interface`.
  *
- * Hint: you should update the primary constructor for `WhaleMailer` by adding two extra
- * parameters for each interface. The `Logger` parameter's default behaviour should do no logging.
+ * Hint: you should update the primary constructor for `WhaleMailer` by adding an extra
+ * parameter for each interface. The `Logger` parameter's default behaviour should do no logging.
  */
 
 open public class WhaleMailer (

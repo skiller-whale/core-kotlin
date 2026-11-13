@@ -46,8 +46,8 @@ fun pickWinner(card1: Card, card2: Card): Card = when {
 /* <<< DO NOT EDIT THIS CODE >>> */
 fun buildDeck(): MutableList<Card> {
     var deck: MutableList<Card> = mutableListOf()
-    for (suit in Suit.values()) {
-        for (rank in Rank.values()) {
+    for (suit in Suit.entries) {
+        for (rank in Rank.entries) {
             deck += Pair(rank, suit)
         }
     }

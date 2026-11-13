@@ -1,4 +1,4 @@
-/* Exercise 3: Polymorphism
+/* Exercise 4: Polymorphism
  * ------------------------
  *
  * The `Account` superclass and its subclasses are implemented below.
@@ -11,8 +11,10 @@
  *     also printing any fields unique to the subclass.
  *
  *  2. Define a new top-level function called `printCustomerInfo()`.
- *     This should take as input a `List<Account>`, and call `display()`on each
+ *     This should take as input a `List<Account>`, and call `display()` on each
  *     account in sequence.
+ *
+ * The code compiles once you have done step 2.
  */
 
 // TODO: define the `printCustomerInfo()` function

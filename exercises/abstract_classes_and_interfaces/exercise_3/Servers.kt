@@ -18,5 +18,6 @@ public class HostServer(
             println("Thread interrupted")
         }
         println("complete.")
+        println(emailBody)
     }
 }

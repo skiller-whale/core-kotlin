@@ -12,7 +12,7 @@ public class Hasher {
     fun createHash(password: CharArray): ByteArray {
         // Generate salt for hashing
         val random = SecureRandom()
-        val salt = byteArrayOf(22)
+        val salt = ByteArray(22)
         random.nextBytes(salt)
 
         // Hash password using PBEKeySpec

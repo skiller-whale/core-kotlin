@@ -6,10 +6,10 @@
  *
  *     HINT 1: for any type T, an array of Ts has type Array<T>.
  *
- *     HINT 2: use `arrayOf()` to create an empty array, which can be mutated using `=`.
+ *     HINT 2: use `arrayOf()` to create an empty array, and use `+=` to add elements to it.
  *
  *  2. Define a function 'printStars'. This should take an integer n and print out n rows of
- *     stars where each ith row contains i stars, for 0 <= i <= n. For example, printStars(4):
+ *     stars where each ith row contains i stars, for 1 <= i <= n. For example, printStars(4):
  *
  *      *
  *      **

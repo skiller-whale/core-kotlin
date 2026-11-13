@@ -22,7 +22,6 @@ import user.*
 public class WhaleMailer {
     public fun send(recipient: User, message: String) {
         // Generate plaintext body of email
-        @Suppress("UNUSED_VARIABLE")
         val emailBody = "Dear ${recipient.name}\n${message}\nHave a great day!\nSkiller Whale"
 
         // Simulate dispatching message from the host server
@@ -33,5 +32,6 @@ public class WhaleMailer {
             println("Thread interrupted")
         }
         println("complete.")
+        println(emailBody)
     }
 }

@@ -4,7 +4,7 @@
  * This code should print 'Password match successful' if the entered password is "skiller" or "whale".
  * Otherwise it should print 'Password match unsuccessful'.
  *
- * Write a conditional expression to build this code.
+ * Write an `if`-`else` conditional to build this code.
  */
 
 val password: String = "password"

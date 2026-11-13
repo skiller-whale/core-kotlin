@@ -26,7 +26,7 @@ println(catNames)
  *
  * Add a type signature to petNames.
  *
- * Create a sublist [Cat names, [Catpurnicus, Shakespaw, ...]] in petNames.
+ * Create a sublist [Cat names, [Catpurrnicus, Shakespaw, ...]] in petNames.
  *
  *  HINT: use the `catNames` variable.
  */

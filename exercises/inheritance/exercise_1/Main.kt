@@ -21,7 +21,7 @@ fun main() {
 
     require (currentProperties.any {
         it.name == "pin" && it.returnType == Int::class.createType() })
-    { "'pinNumber: Int' should be defined in Current" }
+    { "'pin: Int' should be defined in Current" }
 
     require (accountProperties.any {
         it.name == "accountNumber" && it.returnType == Int::class.createType() })
@@ -33,7 +33,7 @@ fun main() {
 
     require (accountProperties.any {
         it.name == "balancePence" && it.returnType == Long::class.createType() })
-    { "'balancePence: Int' should be defined in Account" }
+    { "'balancePence: Long' should be defined in Account" }
 
     if (savings && current) {
         print("The accounts are structured as follows:\n\n")

@@ -1,4 +1,4 @@
-/* Exercise 3: Encapsulation and Setters
+/* Exercise 2: Encapsulation and Setters
  * -------------------------------------
  *
  * PART 1: if you look in `Main.kt`, you will see that the user has access

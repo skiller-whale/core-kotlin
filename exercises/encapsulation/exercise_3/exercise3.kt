@@ -1,4 +1,4 @@
-/* Exercise 4 : The Companion Object
+/* Exercise 3 : The Companion Object
  * ---------------------------------
  *
  * This class uses `randomWord()` from the `Utility` class to generate a word
